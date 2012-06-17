@@ -5,11 +5,11 @@ Xft.hinting:	1
 Xft.hintstyle:	hintfull
 Xft.rgba:	none
 
-XScreenSaver*Dialog.headingFont:            *-helvetica-bold-r-*-*-*-180-*-*-*-iso8859-1
-XScreenSaver*Dialog.bodyFont:               *-helvetica-bold-r-*-*-*-140-*-*-*-iso8859-1
-XScreenSaver*Dialog.labelFont:              *-helvetica-bold-r-*-*-*-140-*-*-*-iso8859-1
-XScreenSaver*Dialog.unameFont:              *-helvetica-bold-r-*-*-*-120-*-*-*-iso8859-1
-XScreenSaver*Dialog.buttonFont:             *-helvetica-bold-r-*-*-*-140-*-*-*-iso8859-1
+XScreenSaver*Dialog.headingFont:            *-helvetica-medium-r-*-*-*-120-*-*-*-iso8859-1
+XScreenSaver*Dialog.bodyFont:               *-helvetica-medium-r-*-*-*-120-*-*-*-iso8859-1
+XScreenSaver*Dialog.labelFont:              *-helvetica-medium-r-*-*-*-120-*-*-*-iso8859-1
+XScreenSaver*Dialog.unameFont:              *-helvetica-medium-r-*-*-*-120-*-*-*-iso8859-1
+XScreenSaver*Dialog.buttonFont:             *-helvetica-medium-r-*-*-*-120-*-*-*-iso8859-1
 XScreenSaver*Dialog.dateFont:               *-helvetica-medium-r-*-*-*-80-*-*-*-iso8859-1
 ! Helvetica asterisks look terrible.
 !*passwd.passwdFont:            *-helvetica-medium-r-*-*-*-140-*-*-*-iso8859-1
@@ -27,8 +27,8 @@ XScreenSaver*passwd.thermometer.foreground: #8ae234
 XScreenSaver*passwd.thermometer.background: #383838
 XScreenSaver*Dialog.topShadowColor:         #161616
 XScreenSaver*Dialog.bottomShadowColor:      #161616
-XScreenSaver*Dialog.logo.width:             200
-XScreenSaver*Dialog.logo.height:            200
+XScreenSaver*Dialog.logo.width:             0
+XScreenSaver*Dialog.logo.height:            0
 XScreenSaver*Dialog.internalBorderWidth:    24
 XScreenSaver*Dialog.borderWidth:            0
 XScreenSaver*Dialog.shadowThickness:        0
@@ -39,7 +39,7 @@ XScreenSaver*passwd.unlock.label:           OK
 XScreenSaver*passwd.login.label:            New Login
 XScreenSaver*passwd.user.label:             Username:
 XScreenSaver*passwd.passwd.label:           Password:
-XScreenSaver*passwd.thermometer.width:      8
+XScreenSaver*passwd.thermometer.width:      3
 XScreenSaver*passwd.asterisks:              True
 XScreenSaver*passwd.uname:                  True
 
