@@ -5,15 +5,15 @@ Xft.hinting:	1
 Xft.hintstyle:	hintfull
 Xft.rgba:	none
 
-XScreenSaver*Dialog.headingFont:            *-helvetica-medium-r-*-*-*-120-*-*-*-iso8859-1
-XScreenSaver*Dialog.bodyFont:               *-helvetica-medium-r-*-*-*-120-*-*-*-iso8859-1
-XScreenSaver*Dialog.labelFont:              *-helvetica-medium-r-*-*-*-120-*-*-*-iso8859-1
-XScreenSaver*Dialog.unameFont:              *-helvetica-medium-r-*-*-*-120-*-*-*-iso8859-1
-XScreenSaver*Dialog.buttonFont:             *-helvetica-medium-r-*-*-*-120-*-*-*-iso8859-1
-XScreenSaver*Dialog.dateFont:               *-helvetica-medium-r-*-*-*-80-*-*-*-iso8859-1
+XScreenSaver*Dialog.headingFont:            *-terminus-medium-r-*-*-*-120-*-*-*-iso8859-1
+XScreenSaver*Dialog.bodyFont:               *-terminus-medium-r-*-*-*-120-*-*-*-iso8859-1
+XScreenSaver*Dialog.labelFont:              *-terminus-medium-r-*-*-*-120-*-*-*-iso8859-1
+XScreenSaver*Dialog.unameFont:              *-terminus-medium-r-*-*-*-120-*-*-*-iso8859-1
+XScreenSaver*Dialog.buttonFont:             *-terminus-medium-r-*-*-*-120-*-*-*-iso8859-1
+XScreenSaver*Dialog.dateFont:               *-terminus-medium-r-*-*-*-80-*-*-*-iso8859-1
 ! Helvetica asterisks look terrible.
-!*passwd.passwdFont:            *-helvetica-medium-r-*-*-*-140-*-*-*-iso8859-1
-XScreenSaver*passwd.passwdFont:             *-courier-medium-r-*-*-*-140-*-*-*-iso8859-1
+!*passwd.passwdFont:            *-terminus-medium-r-*-*-*-140-*-*-*-iso8859-1
+XScreenSaver*passwd.passwdFont:             *-terminus-medium-r-*-*-*-120-*-*-*-iso8859-1
 
 XScreenSaver*Dialog.foreground:             #8ae234
 XScreenSaver*Dialog.background:             #161616
