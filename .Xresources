@@ -1,0 +1,51 @@
+*customization:	-color
+Xft.antialias:	1
+Xft.dpi:	96
+Xft.hinting:	1
+Xft.hintstyle:	hintfull
+Xft.rgba:	none
+
+XScreenSaver*Dialog.headingFont:            *-helvetica-bold-r-*-*-*-180-*-*-*-iso8859-1
+XScreenSaver*Dialog.bodyFont:               *-helvetica-bold-r-*-*-*-140-*-*-*-iso8859-1
+XScreenSaver*Dialog.labelFont:              *-helvetica-bold-r-*-*-*-140-*-*-*-iso8859-1
+XScreenSaver*Dialog.unameFont:              *-helvetica-bold-r-*-*-*-120-*-*-*-iso8859-1
+XScreenSaver*Dialog.buttonFont:             *-helvetica-bold-r-*-*-*-140-*-*-*-iso8859-1
+XScreenSaver*Dialog.dateFont:               *-helvetica-medium-r-*-*-*-80-*-*-*-iso8859-1
+! Helvetica asterisks look terrible.
+!*passwd.passwdFont:            *-helvetica-medium-r-*-*-*-140-*-*-*-iso8859-1
+XScreenSaver*passwd.passwdFont:             *-courier-medium-r-*-*-*-140-*-*-*-iso8859-1
+
+XScreenSaver*Dialog.foreground:             #8ae234
+XScreenSaver*Dialog.background:             #161616
+XScreenSaver*Dialog.Button.foreground:      #8ae234
+XScreenSaver*Dialog.Button.background:      #161616
+!*Dialog.Button.pointBackground: #EAEAEA
+!*Dialog.Button.clickBackground: #C3C3C3
+XScreenSaver*Dialog.text.foreground:        #8ae234
+XScreenSaver*Dialog.text.background:        #161616
+XScreenSaver*passwd.thermometer.foreground: #8ae234
+XScreenSaver*passwd.thermometer.background: #383838
+XScreenSaver*Dialog.topShadowColor:         #161616
+XScreenSaver*Dialog.bottomShadowColor:      #161616
+XScreenSaver*Dialog.logo.width:             200
+XScreenSaver*Dialog.logo.height:            200
+XScreenSaver*Dialog.internalBorderWidth:    24
+XScreenSaver*Dialog.borderWidth:            0
+XScreenSaver*Dialog.shadowThickness:        0
+
+XScreenSaver*passwd.heading.label:          XScreenSaver %s
+XScreenSaver*passwd.body.label:             Please enter your password.
+XScreenSaver*passwd.unlock.label:           OK
+XScreenSaver*passwd.login.label:            New Login
+XScreenSaver*passwd.user.label:             Username:
+XScreenSaver*passwd.passwd.label:           Password:
+XScreenSaver*passwd.thermometer.width:      8
+XScreenSaver*passwd.asterisks:              True
+XScreenSaver*passwd.uname:                  True
+
+XScreenSaver*splash.heading.label:          XScreenSaver %s
+XScreenSaver*splash.body.label:             Copyright © 1991-2010 by
+XScreenSaver*splash.body2.label:            Jamie Zawinski <jwz@jwz.org>
+XScreenSaver*splash.demo.label:             Settings
+XScreenSaver*splash.help.label:             Help
+
