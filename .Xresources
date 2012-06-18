@@ -62,7 +62,7 @@ urxvt*termName: rxvt-unicode
 
 ! shading - 0 to 99 darkens, 101 to 200 lightens.
 !   Dont use with tintColor; just use a darker or lighter color instead.
-URxvt*shading: 40
+URxvt*shading: 10
 
 ! scrollback buffer lines - 65535 is max on most machines (64 is default)
 URxvt*saveLines: 12000
@@ -77,6 +77,10 @@ URxvt*saveLines: 12000
 URxvt*background: #000000
 URxvt*foreground: #AAAAAA
 URxvt*scrollColor: #00FF00
+
+URxvt*colorBD: #FFFFFF
+URxvt*colorIT: #FFFFFF
+URxvt*underlineColor: #888888
 
 URxvt*color0:  #000000
 URxvt*color1:  #CC0000
@@ -126,9 +130,11 @@ URxvt*boldFont: xft:terminus:bold:pixelsize=15
 !URxvt*font:-*-courier-medium-r-normal-*-14-*-*-*-*-*-iso8859-1
 !URxvt*boldFont:-*-courier-bold-r-normal-*-14-*-*-*-*-*-iso8859-1
 
-URxvt*internalBorder: 3
+URxvt*internalBorder: 0
 
 URxvt.perl-ext-common: default,matcher
+URxvt.matcher.button: 1
+
 URxvt.urgentOnBell: True
 
 ! scrollbar - true (default) or false
