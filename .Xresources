@@ -128,7 +128,7 @@ URxvt*boldFont: xft:terminus:bold:pixelsize=15
 
 URxvt*internalBorder: 3
 
-URxvt.perl-ext-common: default,tabbed,matcher
+URxvt.perl-ext-common: default,matcher
 
 ! scrollbar - true (default) or false
 URxvt*scrollBar: true
