@@ -146,6 +146,10 @@ URxvt*scrollBar_right: true
 ! scrollbar style - rxvt (default), plain, next, or xterm
 URxvt*scrollstyle: plain
 
+URxvt*scrollTtyOutput: false
+URxvt*scrollWithBuffer: true
+URxvt*scrollTtyKeypress: true
+
 URxvt*thickness: 5
 
 URxvt*pastableTabs: true
