@@ -49,6 +49,8 @@ XScreenSaver*splash.body2.label:            Jamie Zawinski <jwz@jwz.org>
 XScreenSaver*splash.demo.label:             Settings
 XScreenSaver*splash.help.label:             Help
 
+! URXVT stuff
+
 ! transparency - true or false (default)
 URxvt*transparent: true
 
@@ -66,12 +68,6 @@ URxvt*shading: 10
 
 ! scrollback buffer lines - 65535 is max on most machines (64 is default)
 URxvt*saveLines: 12000
-
-! font color (default is black)
-!URxvt*foreground: 8
-
-! background color (prior to tinting) (default is white)
-!URxvt*background: Black
 
 ! change default colors
 URxvt*background: #000000
