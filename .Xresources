@@ -76,7 +76,7 @@ URxvt*scrollColor: #00FF00
 
 URxvt*colorBD: #FFFFFF
 URxvt*colorIT: #FFFFFF
-URxvt*underlineColor: #888888
+!URxvt*underlineColor: #888888
 
 URxvt*color0:  #000000
 URxvt*color1:  #CC0000
