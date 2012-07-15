@@ -110,7 +110,8 @@ URxvt*boldItalicFont: -xos4-terminus-bold-o-normal--0-0-72-72-c-0-iso10646-1
 
 URxvt*internalBorder: 0
 
-URxvt.perl-ext-common: default,matcher,vtwheel
+!URxvt.perl-ext-common: default,matcher,vtwheel
+URxvt.perl-ext-common: default,matcher
 URxvt.matcher.button: 1
 
 URxvt.urgentOnBell: True
@@ -131,6 +132,12 @@ URxvt*scrollTtyOutput: false
 URxvt*scrollWithBuffer: true
 URxvt*scrollTtyKeypress: true
 
+! scrolling inside the software
+
+urxvt*keysym.S-Prior:   ^[[5;2~
+urxvt*keysym.S-Next:    ^[[6;2~
+
+! 
 URxvt*thickness: 5
 
 URxvt*pastableTabs: true
