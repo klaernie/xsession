@@ -75,8 +75,8 @@ URxvt*background: #000000
 URxvt*foreground: #AAAAAA
 URxvt*scrollColor: #00FF00
 
-URxvt*colorBD: #FFFFFF
-URxvt*colorIT: #FFFFFF
+!URxvt*colorBD: #FFFFFF
+!URxvt*colorIT: #FFFFFF
 !URxvt*underlineColor: #888888
 
 URxvt*color0:  #000000
@@ -99,8 +99,14 @@ URxvt*color15: #EEEEEC
 
 ! Xft: Terminus fonts
 !  Fedora/debian packages: terminus-fonts/xfonts-terminus
-URxvt*font: xft:terminus:pixelsize=15
-URxvt*boldFont: xft:terminus:bold:pixelsize=15
+!URxvt*font: xft:terminus:pixelsize=15
+!URxvt*boldFont: xft:terminus:bold:pixelsize=15
+
+! Xft-less:
+URxvt*font: terminus-14
+URxvt*boldFont: terminus-bold-14
+URxvt*italicFont: -xos4-terminus-medium-o-normal--14-120-72-72-c-60-iso10646-1
+URxvt*boldItalicFont: -xos4-terminus-bold-o-normal--0-0-72-72-c-0-iso10646-1
 
 URxvt*internalBorder: 0
 
