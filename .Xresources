@@ -66,10 +66,6 @@ urxvt*termName: rxvt-unicode
 !   Dont use with tintColor; just use a darker or lighter color instead.
 URxvt*shading: 10
 
-! scrollback buffer lines - 65535 is max on most machines (64 is default)
-!URxvt*saveLines: 12000
-URxvt*saveLines: 0
-
 ! change default colors
 URxvt*background: #000000
 URxvt*foreground: #AAAAAA
@@ -110,34 +106,35 @@ URxvt*boldItalicFont: -xos4-terminus-bold-o-normal--0-0-72-72-c-0-iso10646-1
 
 URxvt*internalBorder: 0
 
-!URxvt.perl-ext-common: default,matcher,vtwheel
-URxvt.perl-ext-common: default,matcher
+URxvt.perl-ext-common: default,matcher,vtwheel
 URxvt.matcher.button: 1
 
 URxvt.urgentOnBell: True
+URxvt*pastableTabs: true
+
+! scrollback buffer lines - 65535 is max on most machines (64 is default)
+URxvt*saveLines: 0
 
 URxvt.secondaryScroll: false
-URxvt.secondaryScreen: false
 
 ! scrollbar - true (default) or false
 URxvt*scrollBar: false
 
 ! scrollbar position - left=false (default) or right=true
 URxvt*scrollBar_right: true
-
-! scrollbar style - rxvt (default), plain, next, or xterm
 URxvt*scrollstyle: plain
-
+URxvt*thickness: 5
 URxvt*scrollTtyOutput: false
 URxvt*scrollWithBuffer: true
 URxvt*scrollTtyKeypress: true
 
-! scrolling inside the software
+! scrolling is meant to be kept in screen
+urxvt*keysym.S-Prior:   \033[25S
+urxvt*keysym.S-Next:    \033[25T
 
-urxvt*keysym.S-Prior:   ^[[5;2~
-urxvt*keysym.S-Next:    ^[[6;2~
+! Switching screen-windows
+urxvt*keysym.S-Right:	\033[27;5;9~
+urxvt*keysym.S-Left:	\033[27;6;9~
+urxvt*keysym.C-Tab:	\033[27;5;9~
 
-! 
-URxvt*thickness: 5
 
-URxvt*pastableTabs: true
