@@ -8,7 +8,7 @@ sub simulate_keypress {
     my $keycode_up = 111;
     my $keycode_down = 116;
     
-    my $numlines = 3;
+    my $numlines = 8;
     
     my $keycode = 0;
     if ($type eq 0) {
@@ -31,7 +31,7 @@ sub on_button_release {
     #my $res_ss = $self->resource("secondaryScroll");
     #warn("ressource ss is <$res_ss>");
     
-    !$self->current_screen and return ();
+    #!$self->current_screen and return ();
     
     #warn("foo, event: <$event->{button}>\n");
     if ($event->{button} eq "4") { # scroll up
