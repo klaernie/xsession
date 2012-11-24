@@ -99,8 +99,8 @@ URxvt*color15: #EEEEEC
 !URxvt*boldFont: xft:terminus:bold:pixelsize=15
 
 ! Xft-less:
-URxvt*font: terminus-14
-URxvt*boldFont: terminus-bold-14
+URxvt*font: terminus-14,xft:Terminus for Powerline:style=Medium,xft:Code2000:antialias=false
+URxvt*boldFont: terminus-bold-14,xft:Terminus for Powerline:style=Bold,xft:Code2000:style=Bold:antialias=false
 URxvt*italicFont: -xos4-terminus-medium-o-normal--14-120-72-72-c-60-iso10646-1
 URxvt*boldItalicFont: -xos4-terminus-bold-o-normal--0-0-72-72-c-0-iso10646-1
 
