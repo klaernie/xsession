@@ -52,7 +52,9 @@ XScreenSaver*splash.help.label:             Help
 ! URXVT stuff
 
 ! transparency - true or false (default)
-URxvt*transparent: true
+URxvt*transparent: false
+
+URxvt*depth: 32
 
 urxvt*termName: rxvt-unicode
 
@@ -64,10 +66,14 @@ urxvt*termName: rxvt-unicode
 
 ! shading - 0 to 99 darkens, 101 to 200 lightens.
 !   Dont use with tintColor; just use a darker or lighter color instead.
-URxvt*shading: 10
+!URxvt*shading: 10
+!URxvt*shading: 100
 
 ! change default colors
-URxvt*background: #000000
+!URxvt*background: #000000
+!URxvt*background: #1b1d1e
+!URxvt*background: rgba:0000/0000/0000/0000
+URxvt*background: [10]#3F3F3F
 URxvt*foreground: #AAAAAA
 URxvt*scrollColor: #00FF00
 
