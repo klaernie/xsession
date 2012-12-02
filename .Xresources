@@ -77,6 +77,8 @@ URxvt*background: [10]#3F3F3F
 URxvt*foreground: #AAAAAA
 URxvt*scrollColor: #00FF00
 
+URxvt*intensityStyles: false
+
 !URxvt*colorBD: #FFFFFF
 !URxvt*colorIT: #FFFFFF
 !URxvt*underlineColor: #888888
