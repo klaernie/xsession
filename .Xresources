@@ -5,49 +5,18 @@ Xft.hinting:	1
 Xft.hintstyle:	hintfull
 Xft.rgba:	none
 
-XScreenSaver*Dialog.headingFont:            *-terminus-medium-r-*-*-*-120-*-*-*-iso8859-1
-XScreenSaver*Dialog.bodyFont:               *-terminus-medium-r-*-*-*-120-*-*-*-iso8859-1
-XScreenSaver*Dialog.labelFont:              *-terminus-medium-r-*-*-*-120-*-*-*-iso8859-1
-XScreenSaver*Dialog.unameFont:              *-terminus-medium-r-*-*-*-120-*-*-*-iso8859-1
-XScreenSaver*Dialog.buttonFont:             *-terminus-medium-r-*-*-*-120-*-*-*-iso8859-1
-XScreenSaver*Dialog.dateFont:               *-terminus-medium-r-*-*-*-80-*-*-*-iso8859-1
-! Helvetica asterisks look terrible.
-!*passwd.passwdFont:            *-terminus-medium-r-*-*-*-140-*-*-*-iso8859-1
-XScreenSaver*passwd.passwdFont:             *-terminus-medium-r-*-*-*-120-*-*-*-iso8859-1
-
-XScreenSaver*Dialog.foreground:             #8ae234
-XScreenSaver*Dialog.background:             #161616
-XScreenSaver*Dialog.Button.foreground:      #8ae234
-XScreenSaver*Dialog.Button.background:      #161616
-!*Dialog.Button.pointBackground: #EAEAEA
-!*Dialog.Button.clickBackground: #C3C3C3
-XScreenSaver*Dialog.text.foreground:        #8ae234
-XScreenSaver*Dialog.text.background:        #161616
-XScreenSaver*passwd.thermometer.foreground: #8ae234
-XScreenSaver*passwd.thermometer.background: #383838
-XScreenSaver*Dialog.topShadowColor:         #161616
-XScreenSaver*Dialog.bottomShadowColor:      #161616
-XScreenSaver*Dialog.logo.width:             0
-XScreenSaver*Dialog.logo.height:            0
-XScreenSaver*Dialog.internalBorderWidth:    24
-XScreenSaver*Dialog.borderWidth:            0
-XScreenSaver*Dialog.shadowThickness:        0
-
-XScreenSaver*passwd.heading.label:          XScreenSaver %s
-XScreenSaver*passwd.body.label:             Please enter your password.
-XScreenSaver*passwd.unlock.label:           OK
-XScreenSaver*passwd.login.label:            New Login
-XScreenSaver*passwd.user.label:             Username:
-XScreenSaver*passwd.passwd.label:           Password:
-XScreenSaver*passwd.thermometer.width:      3
-XScreenSaver*passwd.asterisks:              True
-XScreenSaver*passwd.uname:                  True
-
-XScreenSaver*splash.heading.label:          XScreenSaver %s
-XScreenSaver*splash.body.label:             Copyright © 1991-2010 by
-XScreenSaver*splash.body2.label:            Jamie Zawinski <jwz@jwz.org>
-XScreenSaver*splash.demo.label:             Settings
-XScreenSaver*splash.help.label:             Help
+! XScreenSaver Theme
+XScreenSaver*Font:				*-terminus-medium-r-*-*-*-120-*-*-*-iso8859-1
+XScreenSaver*foreground:			#8ae234
+XScreenSaver*background:			#161616
+XScreenSaver*Dialog.topShadowColor:		#161616
+XScreenSaver*Dialog.bottomShadowColor:		#161616
+XScreenSaver*Dialog.logo.width:			0
+XScreenSaver*Dialog.logo.height:		0
+XScreenSaver*Dialog.internalBorderWidth:	24
+XScreenSaver*Dialog.borderWidth:		0
+XScreenSaver*Dialog.shadowThickness:		0
+XScreenSaver*passwd.thermometer.width:		3
 
 ! URXVT stuff
 
@@ -92,7 +61,6 @@ URxvt*color13: #AD7FA8
 URxvt*color14: #34E2E2
 URxvt*color15: #EEEEEC
 
-! Xft-less:
 URxvt*font: terminus-14,xft:Terminus for Powerline:style=Medium,xft:Code2000:antialias=false
 URxvt*boldFont: terminus-bold-14,xft:Terminus for Powerline:style=Bold,xft:Code2000:style=Bold:antialias=false
 URxvt*italicFont: -xos4-terminus-medium-o-normal--14-120-72-72-c-60-iso10646-1
