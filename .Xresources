@@ -72,7 +72,6 @@ URxvt*termName: rxvt-unicode
 ! change default colors
 URxvt*background: bgcolor
 URxvt*foreground: #dcdccc
-URxvt*scrollColor: #00FF00
 
 URxvt*intensityStyles: false
 
@@ -101,21 +100,18 @@ URxvt*boldItalicFont: -xos4-terminus-bold-o-normal--0-0-72-72-c-0-iso10646-1
 
 URxvt*internalBorder: 0
 
-URxvt.perl-ext-common: default,matcher,vtwheel
-URxvt.matcher.button: 1
+URxvt*perl-ext-common: default,matcher,vtwheel
+URxvt*matcher.button: 1
 
-URxvt.urgentOnBell: true
+URxvt*urgentOnBell: true
 URxvt*pastableTabs: true
 
-! scrollback buffer lines - 65535 is max on most machines (64 is default)
-URxvt*saveLines: 0
-
-URxvt.secondaryScroll: false
-
-! scrollbar - disable as scrolling is handled within screen
+! scrollbar settings - disable all as scrolling is done by screen
 URxvt*scrollBar: false
+URxvt*saveLines: 0
+URxvt*secondaryScroll: false
 
-! scrolling is meant to be kept in screen
+! keysyms to scroll within screen
 URxvt*keysym.S-Prior:   \033[25S
 URxvt*keysym.S-Next:    \033[25T
 
