@@ -52,7 +52,13 @@ XScreenSaver*splash.help.label:             Help
 ! URXVT stuff
 
 ! transparency - true or false (default)
-URxvt*transparent: false
+#if SERVERHOST==eliza
+	URxvt*transparent: true
+	#define bgcolor #3F3F3F
+#else
+	URxvt*transparent: false
+	#define bgcolor [10]#3F3F3F
+#endif
 
 URxvt*depth: 32
 
@@ -73,8 +79,8 @@ urxvt*termName: rxvt-unicode
 !URxvt*background: #000000
 !URxvt*background: #1b1d1e
 !URxvt*background: rgba:0000/0000/0000/0000
-URxvt*background: [10]#3F3F3F
-URxvt*foreground: #AAAAAA
+URxvt*background: bgcolor
+URxvt*foreground: #dcdccc
 URxvt*scrollColor: #00FF00
 
 URxvt*intensityStyles: false
