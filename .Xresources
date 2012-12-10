@@ -62,7 +62,7 @@ XScreenSaver*splash.help.label:             Help
 
 URxvt*depth: 32
 
-urxvt*termName: rxvt-unicode
+URxvt*termName: rxvt-unicode
 
 ! shading - 0 to 99 darkens, 101 to 200 lightens.
 !   Dont use with tintColor; just use a darker or lighter color instead.
@@ -70,18 +70,11 @@ urxvt*termName: rxvt-unicode
 !URxvt*shading: 100
 
 ! change default colors
-!URxvt*background: #000000
-!URxvt*background: #1b1d1e
-!URxvt*background: rgba:0000/0000/0000/0000
 URxvt*background: bgcolor
 URxvt*foreground: #dcdccc
 URxvt*scrollColor: #00FF00
 
 URxvt*intensityStyles: false
-
-!URxvt*colorBD: #FFFFFF
-!URxvt*colorIT: #FFFFFF
-!URxvt*underlineColor: #888888
 
 URxvt*color0:  #000000
 URxvt*color1:  #CC0000
@@ -100,12 +93,6 @@ URxvt*color13: #AD7FA8
 URxvt*color14: #34E2E2
 URxvt*color15: #EEEEEC
 
-
-! Xft: Terminus fonts
-!  Fedora/debian packages: terminus-fonts/xfonts-terminus
-!URxvt*font: xft:terminus:pixelsize=15
-!URxvt*boldFont: xft:terminus:bold:pixelsize=15
-
 ! Xft-less:
 URxvt*font: terminus-14,xft:Terminus for Powerline:style=Medium,xft:Code2000:antialias=false
 URxvt*boldFont: terminus-bold-14,xft:Terminus for Powerline:style=Bold,xft:Code2000:style=Bold:antialias=false
@@ -117,7 +104,7 @@ URxvt*internalBorder: 0
 URxvt.perl-ext-common: default,matcher,vtwheel
 URxvt.matcher.button: 1
 
-URxvt.urgentOnBell: True
+URxvt.urgentOnBell: true
 URxvt*pastableTabs: true
 
 ! scrollback buffer lines - 65535 is max on most machines (64 is default)
@@ -125,24 +112,16 @@ URxvt*saveLines: 0
 
 URxvt.secondaryScroll: false
 
-! scrollbar - true (default) or false
+! scrollbar - disable as scrolling is handled within screen
 URxvt*scrollBar: false
 
-! scrollbar position - left=false (default) or right=true
-URxvt*scrollBar_right: true
-URxvt*scrollstyle: plain
-URxvt*thickness: 5
-URxvt*scrollTtyOutput: false
-URxvt*scrollWithBuffer: true
-URxvt*scrollTtyKeypress: true
-
 ! scrolling is meant to be kept in screen
-urxvt*keysym.S-Prior:   \033[25S
-urxvt*keysym.S-Next:    \033[25T
+URxvt*keysym.S-Prior:   \033[25S
+URxvt*keysym.S-Next:    \033[25T
 
 ! Switching screen-windows
-urxvt*keysym.S-Right:	\033[27;5;9~
-urxvt*keysym.S-Left:	\033[27;6;9~
-urxvt*keysym.C-Tab:	\033[27;5;9~
+URxvt*keysym.S-Right:	\033[27;5;9~
+URxvt*keysym.S-Left:	\033[27;6;9~
+URxvt*keysym.C-Tab:	\033[27;5;9~
 
 
