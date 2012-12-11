@@ -21,7 +21,7 @@ XScreenSaver*passwd.thermometer.width:		3
 ! URXVT stuff
 
 ! transparency - true or false (default)
-#if SERVERHOST==eliza
+#ifdef SRVR_eliza
 	URxvt*transparent: true
 	#define bgcolor #3F3F3F
 #else
