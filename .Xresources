@@ -56,7 +56,7 @@ URxvt*transparent: false
 
 URxvt*depth: 32
 
-urxvt*termName: rxvt-unicode
+urxvt*termName: rxvt-unicode-256color
 
 ! tint with any color; i.e., blue, red, tomato4, olivedrab2, etc.
 !   some nice listings are at:
