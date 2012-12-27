@@ -31,7 +31,7 @@ XScreenSaver*passwd.thermometer.width:		3
 
 URxvt*depth: 32
 
-URxvt*termName: rxvt-unicode
+urxvt*termName: rxvt-unicode-256color
 
 ! shading - 0 to 99 darkens, 101 to 200 lightens.
 !   Dont use with tintColor; just use a darker or lighter color instead.
