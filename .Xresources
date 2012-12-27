@@ -21,17 +21,17 @@ XScreenSaver*passwd.thermometer.width:		3
 ! URXVT stuff
 
 ! transparency - true or false (default)
-#ifdef SRVR_eliza
-	URxvt*transparent: true
-	#define bgcolor #3F3F3F
-#else
+#ifdef EXT_Composite
 	URxvt*transparent: false
 	#define bgcolor [10]#3F3F3F
+#else
+	URxvt*transparent: true
+	#define bgcolor #3F3F3F
 #endif
 
 URxvt*depth: 32
 
-urxvt*termName: rxvt-unicode-256color
+URxvt*termName: rxvt-unicode-256color
 
 ! shading - 0 to 99 darkens, 101 to 200 lightens.
 !   Dont use with tintColor; just use a darker or lighter color instead.
