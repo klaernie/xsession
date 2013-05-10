@@ -68,7 +68,7 @@ URxvt*boldItalicFont: -xos4-terminus-bold-o-normal--0-0-72-72-c-0-iso10646-1
 
 URxvt*internalBorder: 0
 
-URxvt*perl-ext-common: default,matcher,vtwheel
+URxvt*perl-ext-common: default,matcher,vtwheel,font-size
 URxvt*matcher.button: 1
 
 URxvt*urgentOnBell: true
@@ -88,4 +88,6 @@ URxvt*keysym.S-Right:	\033[27;5;9~
 URxvt*keysym.S-Left:	\033[27;6;9~
 URxvt*keysym.C-Tab:	\033[27;5;9~
 
-
+! increase/decrease font-size on the fly
+URxvt*keysym.C-plus:    perl:font-size:increase
+URxvt*keysym.C-minus:   perl:font-size:decrease
