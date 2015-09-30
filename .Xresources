@@ -18,6 +18,21 @@ XScreenSaver*Dialog.borderWidth:		0
 XScreenSaver*Dialog.shadowThickness:		0
 XScreenSaver*passwd.thermometer.width:		3
 
+! XClock styling
+XClock*foreground: #fbfbfb
+XClock*background: #3f3f3f
+XClock*update: 1
+! major: mark every 5 minutes
+XClock.Clock.majorColor:  rgba:f0/f0/19/7b
+! minor: mark for minutes in between the 5min marks
+XClock.Clock.minorColor:  rgba:a0/c0/f0/c0
+! hour: hour Hand
+XClock.Clock.hourColor:   rgba:c9/66/11/72
+! minute: minute Hand
+XClock.Clock.minuteColor: rgba:00/82/9f/72
+! second: second Hand
+XClock.Clock.secondColor: rgba:50/93/30/6f
+
 ! URXVT stuff
 
 ! transparency - true or false (default)
